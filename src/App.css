@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.carusel{
+  background-image: url(./../public/imges/background.jpg);
+ width: 500%;
+  height: 800%;
+  position: relative;
+  display: block;
+  background-position: center;
+  background-size: cover;
+}
+.img-fluid h1 {
+  display: flex;
+    /* flex-wrap: nowrap; */
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+.h2{
+  margin-top: 135px;
+    margin-left: -387px;
+    width: 300px;
+    position: absolute ;
+}
+.img{
+  width: 150px;
+  height: 150px;
+}
